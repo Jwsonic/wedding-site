@@ -26,7 +26,7 @@ angular.module('weddingSiteApp')
     $scope.locations = [{
       id: 'ceremony',
       show: true,
-      text: '<b>Ceremony</b><br><a target="_blank" href="https://maps.google.com?daddr=44809+Gov.+Bradford+Plymouth+MI+48170">The Palgut Residence</a>',
+      text: '<b>Ceremony</b><br><a target="_blank" href="https://maps.google.com?daddr=44809+Governor+Bradford+Rd+Plymouth+MI+48170">The Palgut Residence</a>',
       loc: {
         latitude: 42.366001,
         longitude: -83.483981
@@ -34,7 +34,7 @@ angular.module('weddingSiteApp')
     }, {
       id: 'reception',
       show: true,
-      text: '<b>Reception</b><br><a target="_blank" href="https://maps.google.com?saddr=44809+Gov.+Bradford+Plymouth+MI+48170&daddr=512+East+William+Street+Ann+Arbor+MI+48104">The Original Cottage Inn</a>',
+      text: '<b>Reception</b><br><a target="_blank" href="https://maps.google.com?saddr=44809+Governor+Bradford+Rd+Plymouth+MI+48170&daddr=512+East+William+Street+Ann+Arbor+MI+48104">The Original Cottage Inn</a>',
       loc: {
         latitude: 42.277671,
         longitude: -83.742632
